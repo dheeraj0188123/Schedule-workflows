@@ -1,14 +1,14 @@
-name: Scheduke job
+name: Schedule job
 
 on:
   schedule:
     - corn: "0 0 * * *"
 
 
-   jobs:
-     run-scrept: 
-     runs-on: ubuntu-latest
+ jobs:
+   run-scrept: 
+   runs-on: ubuntu-latest
 
-     steps:
-       - name: Print Message
-         run: echo "Schedule Workflow Executed"
+   steps:
+    - name: Print Message
+      run: echo "Schedule Workflow Executed"
